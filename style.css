@@ -1,0 +1,42 @@
+h1{
+    font-size: 40px;
+}
+#border{
+    border-left: 5px solid;
+    border-image: linear-gradient(cyan, rgb(98, 98, 238));
+    border-image-slice: 1;
+    padding-left: 5px;
+}
+.color{
+    color: powderblue;
+}
+.size{
+    font-size: 20px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, cyan);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 800;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+   
+    
+}
+.half-width img{
+    width: 90%;
+}
+.flexing{
+    display: flex;
+    margin-top: 50px;
+}
+#padding{
+    padding-left:5% ;
+    font-size: 20px;
+}
+
+
