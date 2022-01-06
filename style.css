@@ -38,5 +38,48 @@ h1{
     padding-left:5% ;
     font-size: 20px;
 }
+#center{
+    text-align: center;
+}
+.div-1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 20px;
+    margin: auto;
+    
 
+}
+.div-1 img{
+    width: 30%;
+}
+.div-2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 20px;
+    margin: auto;
+}
+.div-2 img{
+    width: 50%;
+}
+.div-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
 
+}
+#color-1{
+    background-color: lightyellow;
+}
+#color-2{
+    background-color: mistyrose;
+}
+#color-3{
+    background-color: lightgrey;
+}
